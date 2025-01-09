@@ -1,9 +1,9 @@
 name: Run
 
 on:
-#   push:
-#     branches:
-#       - main
+  push:
+    branches:
+      - main
   schedule:
     - cron: '35 15 * * *'  # 在UTC时间上午10点6分运行
 
